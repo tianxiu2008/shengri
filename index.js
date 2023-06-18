@@ -3,7 +3,7 @@ var S = {
         S.Drawing.init('.canvas');
         document.body.classList.add('body--ready');
             //想说什么
-            S.UI.simulate("嘉嘉祝你生日快乐哟,希望你以后开开心心,想要的都能拥有 得不到的都能释怀|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+             S.UI.simulate("祝你|生日快乐哟|#countdown 3|#rectangle 15x15|#circle 12 |#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
